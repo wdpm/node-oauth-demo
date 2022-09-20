@@ -46,3 +46,11 @@ $ node index.js
 
 Visit http://localhost:8080 in your browser, and click the link to login GitHub.
 
+## issues
+TIMEOUT when redirect to localhost.
+```
+authorization code: -----------------
+
+  Error: connect ETIMEDOUT 52.69.186.44:443                            
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+```

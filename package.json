@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "a demo of OAuth2.0 using node",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": "https://github.com/ruanyf/node-oauth-demo",
   "author": "Ruan Yifeng",
   "license": "MIT",

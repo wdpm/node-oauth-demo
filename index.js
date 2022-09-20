@@ -1,7 +1,7 @@
 // Fill in your client ID and client secret that you obtained
 // while registering the application
-const clientID = '7e015d8ce32370079895'
-const clientSecret = '2b976af0e6b6ceea2b1554aa31d1fe94ea692cd9'
+const clientID = '98ada85e5491d9b333ba'
+const clientSecret = '7103bd6926b2b914d084aba0b458cfcb987829a2'
 
 const Koa = require('koa');
 const path = require('path');
@@ -49,3 +49,5 @@ app.use(main);
 app.use(route.get('/oauth/redirect', oauth));
 
 app.listen(8080);
+
+console.log('listening......')
